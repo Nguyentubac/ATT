@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ATTT_new3\\ATT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\Program.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
+              "RelativeToolTip": "ATTT_project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:42:37.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormQL.cs [Design]",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormQL.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\FormQL.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormQL.cs [Design]",
+              "RelativeToolTip": "ATTT_project\\FormQL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:47:02.146Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAffine.cs [Design]",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormAffine.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\FormAffine.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormAffine.cs [Design]",
+              "RelativeToolTip": "ATTT_project\\FormAffine.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:47:01.68Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 69,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
