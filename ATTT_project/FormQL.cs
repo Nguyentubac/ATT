@@ -15,7 +15,7 @@ using vigenere;
 
 namespace ATTT_project
 {
-    public partial class Form1 : Form
+    public partial class FormQL : Form
     {   
         bool ktf1 = false;
         bool ktf2 = false;
@@ -23,7 +23,7 @@ namespace ATTT_project
         bool ktf4 = false;
         bool ktf5 = false;
         bool ktf6 = false;
-        public Form1()
+        public FormQL()
         {
             InitializeComponent();
             this.IsMdiContainer = true;

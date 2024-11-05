@@ -14,3 +14,19 @@ C:\Users\ADMIN\source\repos\ATTT (1)\ATTT_project\obj\Debug\ATTT_project.csproj.
 C:\Users\ADMIN\source\repos\ATTT (1)\ATTT_project\obj\Debug\ATTT_project.exe
 C:\Users\ADMIN\source\repos\ATTT (1)\ATTT_project\obj\Debug\ATTT_project.pdb
 C:\Users\ADMIN\source\repos\ATTT (1)\ATTT_project\obj\Debug\ATTT_project.FormHill.resources
+E:\ATTT_new3\ATT\ATTT_project\bin\Debug\ATTT_project.exe.config
+E:\ATTT_new3\ATT\ATTT_project\bin\Debug\ATTT_project.exe
+E:\ATTT_new3\ATT\ATTT_project\bin\Debug\ATTT_project.pdb
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.csproj.AssemblyReference.cache
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.FormQL.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.FormAffine.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\Ceasar.FormCeasar.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.FormHill.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\Mathaythe.FormMaThayThe.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT.FormPlayFair.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\vigenere.FormVigenere.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.Properties.Resources.resources
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.csproj.GenerateResource.cache
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.csproj.CoreCompileInputs.cache
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.exe
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.pdb
