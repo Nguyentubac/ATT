@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ATTT_project
 {
@@ -146,10 +147,41 @@ namespace ATTT_project
             int[] plantext_int = new int[len];
             int[] ciphertext_int = new int[len];
             string cipher_text = "";
+            if (string.IsNullOrEmpty(txtplaintext.Text))
+            {
+                MessageBox.Show("Hãy nhập văn bản để mã hoá");
+            }
             Change(plantext_int, plantext);
-            int p = int.Parse(txt_p.Text);
-            int q = int.Parse(txt_q.Text);
-            e = int.Parse(txt_e.Text);
+            int p = 0;
+            int q = 0;
+            if (txt_p.Text.Trim() == string.Empty)
+            { 
+                MessageBox.Show("Không được để trống");
+            }
+            else if (!int.TryParse(txt_p.Text, out p))
+            {
+                MessageBox.Show("Chỉ nhập số nguyên ");
+            }
+
+            if (txt_q.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Không được để trống");
+            }
+            else if (!int.TryParse(txt_q.Text, out q))
+            {
+                MessageBox.Show("Chỉ nhập số nguyên ");
+            }
+            if (txt_e.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Không được để trống");
+            }
+            else if (!int.TryParse(txt_e.Text, out e))
+            {
+                MessageBox.Show("Chỉ nhập số nguyên ");
+            }
+
+            // thêm check số
+            //e = int.Parse(txt_e.Text);
             n = 0;
             int fi = 0;
             //int d = 0;
@@ -176,8 +208,6 @@ namespace ATTT_project
                     txt_e.Clear();
                     txt_n.Text = n.ToString();
                     txt_d.Text = ModInverse(e, fi).ToString();
-                    txt_n.Enabled = true;
-                    txt_d.Enabled = true;
                 }
                 else
                 {
@@ -192,8 +222,24 @@ namespace ATTT_project
         }
 
         private void GiaiMa()
-        {   
-            
+        {
+            int d =0;
+            if (txt_n.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Không được để trống");
+            }
+            else if (!int.TryParse(txt_n.Text, out n))
+            {
+                MessageBox.Show("Chỉ nhập số nguyên ");
+            }
+            if (txt_d.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("Không được để trống");
+            }
+            else if (!int.TryParse(txt_d.Text, out d))
+            {
+                MessageBox.Show("Chỉ nhập số nguyên ");
+            }
             string cipher_text = txtplaintext.Text;
             if (cipher_text.Length > 0)
             {
@@ -204,8 +250,6 @@ namespace ATTT_project
                 int[] plaintext_int = new int[len];
                 string plaintext = "";
                 //e = int.Parse(txt_e.Text);
-                int d = int.Parse(txt_d.Text);
-                MessageBox.Show(d.ToString());
                 int[] bits = ConvertToBitArray(d);
                 for (int i = 0; i < len; i++)
                 {   
@@ -217,7 +261,7 @@ namespace ATTT_project
             }
             else
             {
-                MessageBox.Show("Hãy nhập chuỗi để mã hoá");
+                MessageBox.Show("Hãy nhập chuỗi để giải hoá");
             }
             
         }
