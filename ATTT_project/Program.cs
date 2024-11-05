@@ -16,7 +16,7 @@ namespace ATTT_project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormQL());
+            Application.Run(new RSA());
         }
     }
 }

@@ -30,3 +30,4 @@ E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.csproj.GenerateResource.cac
 E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.csproj.CoreCompileInputs.cache
 E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.exe
 E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.pdb
+E:\ATTT_new3\ATT\ATTT_project\obj\Debug\ATTT_project.RSA.resources

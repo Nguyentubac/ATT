@@ -23,6 +23,7 @@ namespace ATTT_project
         bool ktf4 = false;
         bool ktf5 = false;
         bool ktf6 = false;
+        bool ktf7 = false;
         public FormQL()
         {
             InitializeComponent();
@@ -127,7 +128,6 @@ namespace ATTT_project
             {
                 ktf4= false;
             }
-
         }
 
         private void vigennereToolStripMenuItem_Click(object sender, EventArgs e)
@@ -156,7 +156,25 @@ namespace ATTT_project
 
         private void rSAToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            foreach (Form child in this.MdiChildren)
+            {
+                if (child is FormHill)
+                {
+                    child.BringToFront();
+                    ktf7 = true;
+                }
+            }
+            if (!ktf6)
+            {
+                RSA f7 = new RSA();
+                f7.MdiParent = this;
+                f7.BringToFront();
+                f7.Show();
+            }
+            else
+            {
+                ktf7 = false;
+            }
         }
 
         private void hillToolStripMenuItem_Click(object sender, EventArgs e)
