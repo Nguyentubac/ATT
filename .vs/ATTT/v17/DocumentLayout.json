@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "E:\\ATTT_new3\\ATT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\rsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\rsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\rsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\rsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|E:\\ATTT_new3\\ATT\\attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|e:\\attt_new3\\att\\attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|E:\\ATTT_new3\\ATT\\attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F47BCC12-EEFA-4C2A-98E0-77FAD7FCC9C9}|ATTT_project\\ATTT_project.csproj|solutionrelative:attt_project\\formaffine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
-              "RelativeDocumentMoniker": "ATTT_project\\Program.cs",
-              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
-              "RelativeToolTip": "ATTT_project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:42:37.801Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -46,8 +49,76 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormQL.cs",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormQL.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\FormQL.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormQL.cs",
+              "RelativeToolTip": "ATTT_project\\FormQL.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:58:21.852Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RSA.cs",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\RSA.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\RSA.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\RSA.cs",
+              "RelativeToolTip": "ATTT_project\\RSA.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:12:10.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAffine.cs",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormAffine.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\FormAffine.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormAffine.cs",
+              "RelativeToolTip": "ATTT_project\\FormAffine.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwGMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:33:24.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RSA.cs [Design]",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\RSA.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\RSA.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\RSA.cs [Design]",
+              "RelativeToolTip": "ATTT_project\\RSA.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:01:11.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
+              "RelativeDocumentMoniker": "ATTT_project\\Program.cs",
+              "ToolTip": "E:\\ATTT_new3\\ATT\\ATTT_project\\Program.cs",
+              "RelativeToolTip": "ATTT_project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T11:42:37.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormQL.cs [Design]",
               "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormQL.cs",
               "RelativeDocumentMoniker": "ATTT_project\\FormQL.cs",
@@ -59,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FormAffine.cs [Design]",
               "DocumentMoniker": "E:\\ATTT_new3\\ATT\\ATTT_project\\FormAffine.cs",
               "RelativeDocumentMoniker": "ATTT_project\\FormAffine.cs",
