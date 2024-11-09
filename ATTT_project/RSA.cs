@@ -197,6 +197,7 @@ namespace ATTT_project
                     for(int i = 0; i<len; i++)
                     {
                         ciphertext_int[i] = (int) dequi(plantext_int[i], ConvertToBitArray(e),n);
+                        //ciphertext_int[i] = (char) dequi(plantext_int[i], ConvertToBitArray(e),n);
                         cipher_text += ciphertext_int[i] + " ";
                     }
 
