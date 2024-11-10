@@ -44,7 +44,7 @@ namespace ATTT_project
                     ktf1 = true;
                 }
             }
-            if (!ktf1 && !ktf2)
+            if (!ktf1)
             {
                 FormAffine f1 = new FormAffine();
                 f1.MdiParent = this;
@@ -111,7 +111,7 @@ namespace ATTT_project
 
             foreach (Form child in this.MdiChildren)
             {
-                if (child is FormAffine)
+                if (child is FormPlayFair)
                 {
                     child.BringToFront();
                     ktf4 = true;
@@ -137,7 +137,7 @@ namespace ATTT_project
                 if (child is FormVigenere)
                 {
                     child.BringToFront();
-                    ktf4 = true;
+                    ktf5 = true;
                 }
             }
             if (!ktf4)
@@ -158,13 +158,13 @@ namespace ATTT_project
         {
             foreach (Form child in this.MdiChildren)
             {
-                if (child is FormHill)
+                if (child is RSA)
                 {
                     child.BringToFront();
                     ktf7 = true;
                 }
             }
-            if (!ktf6)
+            if (!ktf7)
             {
                 RSA f7 = new RSA();
                 f7.MdiParent = this;
