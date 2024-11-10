@@ -25,27 +25,27 @@ namespace ATTT_project
             comboBox1.Items.Add("Ma trận 3x3");
             comboBox1.Items.Add("Ma trận 4x4");
             comboBox1.Text = "--Chọn loại ma trận--";
-
         }
         public double[,] setkeyMatrix()
         {
-            double.TryParse(textBox1.Text, out double num1);
-            double.TryParse(textBox2.Text, out double num2);
-            double.TryParse(textBox3.Text, out double num3);
-            double.TryParse(textBox4.Text, out double num4);
-            double.TryParse(textBox5.Text, out double num5);
-            double.TryParse(textBox6.Text, out double num6);
-            double.TryParse(textBox7.Text, out double num7);
-            double.TryParse(textBox8.Text, out double num8);
-            double.TryParse(textBox9.Text, out double num9);
-            double.TryParse(textBox10.Text, out double num10);
-            double.TryParse(textBox11.Text, out double num11);
-            double.TryParse(textBox12.Text, out double num12);
-            double.TryParse(textBox13.Text, out double num13);
-            double.TryParse(textBox14.Text, out double num14);
-            double.TryParse(textBox15.Text, out double num15);
-            double.TryParse(textBox16.Text, out double num16);
             
+                double.TryParse(textBox1.Text, out double num1);
+                double.TryParse(textBox2.Text, out double num2);
+                double.TryParse(textBox3.Text, out double num3);
+                double.TryParse(textBox4.Text, out double num4);
+                double.TryParse(textBox5.Text, out double num5);
+                double.TryParse(textBox6.Text, out double num6);
+                double.TryParse(textBox7.Text, out double num7);
+                double.TryParse(textBox8.Text, out double num8);
+                double.TryParse(textBox9.Text, out double num9);
+                double.TryParse(textBox10.Text, out double num10);
+                double.TryParse(textBox11.Text, out double num11);
+                double.TryParse(textBox12.Text, out double num12);
+                double.TryParse(textBox13.Text, out double num13);
+                double.TryParse(textBox14.Text, out double num14);
+                double.TryParse(textBox15.Text, out double num15);
+                double.TryParse(textBox16.Text, out double num16);
+           
             switch (comboBox1.SelectedIndex)
             {
                 case 0: size_matrix = 2;
@@ -64,34 +64,42 @@ namespace ATTT_project
         public string Encrypt(string plaintext)
         {
             plaintext = plaintext.ToUpper().Replace(" ", "");
-            while (plaintext.Length % size_matrix != 0)
-            {
-                plaintext += "X"; 
-            }
-            string ciphertext = "";
 
-            for (int i = 0; i < plaintext.Length; i += size_matrix)
+            if (plaintext.Any(c => !char.IsLetter(c))) 
             {
-                double[] vector = new double[size_matrix];
-
-                for (int j = 0; j < size_matrix; j++)
-                {
-                    vector[j] = plaintext[i + j] - 'A'; // Convert to Z_26
-                }
-                
-                double[] result = MultiplyMatrix(keyMatrix,vector); // MultiplyMatrix
-                
-                //MessageBox.Show(result[0].ToString() + result[1].ToString() + result[2].ToString());
-                foreach (var value in result)
-                {
-                    ciphertext += (char)((value % 26) + 'A'); // Convert to char
-                }
+                MessageBox.Show("Chuỗi plaintext  chỉ được dùng chữ , không số và kí tự đặc biệt");
             }
-            return ciphertext;
+            else { 
+                while (plaintext.Length % size_matrix != 0)
+                {
+                    plaintext += "X"; 
+                }
+                string ciphertext = "";
+
+                for (int i = 0; i < plaintext.Length; i += size_matrix)
+                {
+                    double[] vector = new double[size_matrix];
+
+                    for (int j = 0; j < size_matrix; j++)
+                    {
+                        vector[j] = plaintext[i + j] - 'A'; // Convert to Z_26
+                    }
+                
+                    double[] result = MultiplyMatrix(keyMatrix,vector); // MultiplyMatrix
+                
+                    //MessageBox.Show(result[0].ToString() + result[1].ToString() + result[2].ToString());
+                    foreach (var value in result)
+                    {
+                        ciphertext += (char)((value % 26) + 'A'); // Convert to char
+                    }
+                }
+                return ciphertext;
+            }
+            return "";
         }
         public string Decrypt(string ciphertext)
         {
-            double[,] inversekeyMatrix = null;
+            double[,] inversekeyMatrix;
 
             inversekeyMatrix = invertkeyMatrix;
 
@@ -224,7 +232,7 @@ namespace ATTT_project
 
         bool checkUCLN(double det)
         {
-            // check UCLN giua a và 26
+            // check UCLN giua det và 26
             double n1 = det;
             double n2 = 26;
             while (n2 != 0)
@@ -233,16 +241,8 @@ namespace ATTT_project
                 n2 = n1 % n2;
                 n1 = temp;
             }
-
-            if (n1 == 1)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-
+            if (n1 == 1)  return true;
+            return false;
         }
         public double ModInverse(double a, int n)
         {
@@ -260,12 +260,12 @@ namespace ATTT_project
                 t2 = t;
             }
 
-            if (r1 == 1) // UCLN(a,n)=1
+            if (r1 == 1)
             {
                 return t1 < 0 ? t1 + n : t1;
             }
             else
-            {
+            {   
                 throw new InvalidOperationException("Nghịch đảo module không tồn tại.");
             }
         }
@@ -357,14 +357,14 @@ namespace ATTT_project
                     textBox16.Text = ""; textBox16.Enabled = true;
                     break;
             }
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             setkeyMatrix();  
             double detK = Determinant(setkeyMatrix()); // tính DetK
-            detK_1 = ModInverse(detK, 26);
+
+            detK_1 = ModInverse(detK, 26); // detK^-1
 
             if (checkUCLN(detK))
             {  
@@ -376,7 +376,6 @@ namespace ATTT_project
             {
                 MessageBox.Show("Ma trận không tồn tại ma trận nghịch đảo");
             }
-                
         }
     }
 }
