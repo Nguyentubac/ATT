@@ -86,8 +86,6 @@ namespace ATTT_project
                     }
                 
                     double[] result = MultiplyMatrix(keyMatrix,vector); // MultiplyMatrix
-                
-                    //MessageBox.Show(result[0].ToString() + result[1].ToString() + result[2].ToString());
                     foreach (var value in result)
                     {
                         ciphertext += (char)((value % 26) + 'A'); // Convert to char
@@ -185,7 +183,6 @@ namespace ATTT_project
                 double[,] matran_con = Matran_con(matrix, 0, j);
                 det += Math.Pow(-1, j) * matrix[0, j] * Determinant(matran_con);
             }
-
             return det;
         }
         static double[,] GetAdjugate(double[,] matrix) // ma trận phụ hợp  oke rồi nhé
@@ -277,7 +274,7 @@ namespace ATTT_project
             double detK = Determinant(setkeyMatrix()); // tính DetK
             detK_1 = ModInverse(detK,26);
 
-            if (checkUCLN(detK)){  // check UCLN(detK , 26)\
+            if (checkUCLN(detK)){  // check UCLN(detK , 26)
 
                 invertkeyMatrix = GetAdjugate(keyMatrix); //ma trận phụ hợp
                 richTextBox2.Text = "";
@@ -289,7 +286,6 @@ namespace ATTT_project
             }
             
         }
-        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch (comboBox1.SelectedIndex)

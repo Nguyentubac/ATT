@@ -55,8 +55,9 @@ namespace ATTT_project
         }
         static bool IsPrime(int s)
         {
+            if (s == 2) return true;
             if (s < 2) return false;
-            if (s == 2) return true; // 2 là số nguyên tố
+             // 2 là số nguyên tố
             if (s % 2 == 0) return false; // Các số chẵn lớn hơn 2 không phải là số nguyên tố
 
             for (int i = 3; i <= Math.Sqrt(s); i += 2)
@@ -260,7 +261,7 @@ namespace ATTT_project
                 {   
                     plaintext_int[i] = (int)dequi(intArray[i],bits,n);  
                 }
-                plaintext =Change__(plaintext_int, plaintext);
+                plaintext = Change__(plaintext_int, plaintext);
                 txtplaintext.Clear();
                 txtplaintext.Text = plaintext;
             }
