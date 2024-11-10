@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Key = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -46,7 +45,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(52, 277);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 34);
             this.button1.TabIndex = 0;
@@ -54,30 +53,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 28);
-            this.label1.TabIndex = 6;
-            // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(103, 94);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 30);
+            this.textBox1.Size = new System.Drawing.Size(357, 26);
             this.textBox1.TabIndex = 2;
             // 
             // Key
             // 
             this.Key.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Key.Location = new System.Drawing.Point(103, 158);
-            this.Key.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Key.Margin = new System.Windows.Forms.Padding(4);
             this.Key.Name = "Key";
-            this.Key.Size = new System.Drawing.Size(357, 30);
+            this.Key.Size = new System.Drawing.Size(357, 26);
             this.Key.TabIndex = 3;
             this.Key.TextChanged += new System.EventHandler(this.Key_TextChanged);
             // 
@@ -89,9 +80,9 @@
             "Mã Hoá",
             "Giải Mã"});
             this.comboBox1.Location = new System.Drawing.Point(759, 101);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 33);
+            this.comboBox1.Size = new System.Drawing.Size(160, 28);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -102,7 +93,7 @@
             this.label2.Location = new System.Drawing.Point(576, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 25);
+            this.label2.Size = new System.Drawing.Size(108, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Phương pháp ";
             // 
@@ -113,7 +104,7 @@
             this.label3.Location = new System.Drawing.Point(39, 162);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 25);
+            this.label3.Size = new System.Drawing.Size(35, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "Key";
             // 
@@ -124,7 +115,7 @@
             this.label4.Location = new System.Drawing.Point(47, 101);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 25);
+            this.label4.Size = new System.Drawing.Size(19, 20);
             this.label4.TabIndex = 9;
             this.label4.Text = "P";
             // 
@@ -135,7 +126,7 @@
             this.label6.Location = new System.Drawing.Point(47, 226);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 25);
+            this.label6.Size = new System.Drawing.Size(67, 20);
             this.label6.TabIndex = 11;
             this.label6.Text = "Kết Quả";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -148,7 +139,7 @@
             this.textkq.Location = new System.Drawing.Point(167, 226);
             this.textkq.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.textkq.Name = "textkq";
-            this.textkq.Size = new System.Drawing.Size(0, 25);
+            this.textkq.Size = new System.Drawing.Size(0, 20);
             this.textkq.TabIndex = 12;
             // 
             // dataGridView12
@@ -162,7 +153,7 @@
             this.dataGridView12.Size = new System.Drawing.Size(615, 459);
             this.dataGridView12.TabIndex = 13;
             // 
-            // Form1
+            // FormPlayFair
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,10 +167,9 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.Key);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "FormPlayFair";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView12)).EndInit();
             this.ResumeLayout(false);
@@ -190,7 +180,6 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox Key;
         private System.Windows.Forms.ComboBox comboBox1;

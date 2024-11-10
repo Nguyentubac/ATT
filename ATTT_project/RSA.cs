@@ -147,6 +147,7 @@ namespace ATTT_project
             int[] plantext_int = new int[len];
             int[] ciphertext_int = new int[len];
             string cipher_text = "";
+
             if (string.IsNullOrEmpty(txtplaintext.Text))
             {
                 MessageBox.Show("Hãy nhập văn bản để mã hoá");
@@ -233,6 +234,7 @@ namespace ATTT_project
             {
                 MessageBox.Show("Chỉ nhập số nguyên ");
             }
+
             if (txt_d.Text.Trim() == string.Empty)
             {
                 MessageBox.Show("Không được để trống");
@@ -241,7 +243,9 @@ namespace ATTT_project
             {
                 MessageBox.Show("Chỉ nhập số nguyên ");
             }
+
             string cipher_text = txtplaintext.Text;
+
             if (cipher_text.Length > 0)
             {
                 string[] stringArray = cipher_text.Trim().Split(' ');
@@ -293,7 +297,6 @@ namespace ATTT_project
                     txt_e.Enabled = false;
                     txt_p.Enabled = false;
                     break;
-
             }
         }
 
