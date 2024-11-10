@@ -139,7 +139,7 @@
             this.thucthi_thaythe.TabIndex = 10;
             this.thucthi_thaythe.Text = "Mã Hóa";
             // 
-            // Form1
+            // FormMaThayThe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -154,7 +154,8 @@
             this.Controls.Add(this.thongdiep_thaythe);
             this.Controls.Add(this.ketqua_thaythe);
             this.Controls.Add(this.Key_thaythe);
-            this.Name = "Form1";
+            this.Name = "FormMaThayThe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
